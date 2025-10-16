@@ -169,30 +169,39 @@ namespace WpfApp_DataBinding_Ver2
             if (_Name != "" && _Lastname != "" && _Surname != "" && _Birthday != null)
             {
                 string filePath;
-                string idString;
+               
+
                 
-                if (currentID >= 10000)
+                if (currentID >= 1000000)
                 {
-                    idString = $"{currentID}";
+                    ID = $"{currentID}";
+                }
+                else if(currentID >= 100000)
+                {
+                 ID = $"0{currentID}";
+                }
+                else if (currentID >= 10000)
+                {
+                    ID = $"00{currentID}";
                 }
                 else if (currentID >= 1000)
                 {
-                    idString = $"0{currentID}";
+                    ID = $"000{currentID}";
                 }
                 else if (currentID >= 100)
                 {
-                    idString = $"00{currentID}";
+                    ID = $"0000{currentID}";
                 }
                 else if (currentID >= 10)
                 {
-                    idString = $"000{currentID}";
+                    ID = $"00000{currentID}";
                 }
                 else
                 {
-                    idString = $"0000{currentID}";
+                    ID = $"000000{currentID}";
                 }
 
-                ID = idString;
+               
                 filePath = $".\\Pacients\\P_{ID}.json";
 
                 File.WriteAllText("Last_P_ID.txt", currentID.ToString());
