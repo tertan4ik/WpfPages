@@ -165,11 +165,6 @@ namespace WpfApp_DataBinding_Ver2
                     File.WriteAllText("Last_D_ID.txt", currentID.ToString());
                     string jsonString = JsonSerializer.Serialize(this);
                     File.WriteAllText(filePath, jsonString);
-                }
-                else
-                {
-                    MessageBox.Show("Пароли не совпадают");
-                }
                 Name = "";
                 Surname = "";
                 Lastname = "";
@@ -178,6 +173,12 @@ namespace WpfApp_DataBinding_Ver2
                 Passwordconfirm = "";
                 ID = "";
                 currentID++;
+                }
+                else
+                {
+                    MessageBox.Show("Пароли не совпадают");
+                }
+
 
 
             }
