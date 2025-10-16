@@ -1,0 +1,186 @@
+﻿<Window x:Class="WpfApp_DataBinding_Ver2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="1040" MinWidth="1340" Width="1340" Height="1040">
+    <!-- Блок регистрации -->
+    <Window.Resources>
+        <local:User x:Key="UserReg"/>
+        <local:User x:Key="UserLog"/>
+        <local:Pacient x:Key="Pacientadd"/>
+        <local:Pacient x:Key="Pacientshow"/>
+        <local:Pacient x:Key="Allusers"/>
+    </Window.Resources>
+    <Grid Margin="0,0,0,9" DataContext="{StaticResource UserLog}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Левая колонка -->
+        <StackPanel Grid.Column="0" Margin="5,5,5,45" DataContext="{StaticResource UserReg}">
+
+            <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,5" >
+                <StackPanel Margin="10">
+                    <DockPanel HorizontalAlignment="Center">
+                        <Label Content="Name" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Name, UpdateSourceTrigger= LostFocus}"/>
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Center">
+                        <Label Content="Surname" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Surname, UpdateSourceTrigger= LostFocus}"/>
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Center">
+                        <Label Content="Lastname" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Lastname, UpdateSourceTrigger= LostFocus}"/>
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Center" >
+                        <Label Content="Specialization" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Specialization, UpdateSourceTrigger= LostFocus}"/>
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Center" >
+                        <Label Content="Password" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Password, UpdateSourceTrigger=LostFocus}"/>
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Center" >
+                        <Label Content="Password confirmation" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Passwordconfirm, UpdateSourceTrigger=LostFocus}"/>
+                    </DockPanel>
+                    <Button Content="Зарегестрироваться" Height="40" Width="300" Margin="0,10,0,0" HorizontalAlignment="Center" Click="Registration"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Блок авторизации -->
+            <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,5" DataContext="{StaticResource UserLog}">
+                <StackPanel Margin="10">
+                    <DockPanel HorizontalAlignment="Center">
+                        <Label Content="Identificaror" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding ID}"/>
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Center">
+                        <Label Content="Password" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"  />
+                        <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Password}"/>
+                    </DockPanel>
+                    <Button Content="Войти" Height="40" Width="300" Margin="0,10,0,0" HorizontalAlignment="Center" Click="Login"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Блок информации о пользователе -->
+            <Border BorderBrush="Black" BorderThickness="1" >
+                <StackPanel Margin="10" DataContext="{StaticResource UserLog}">
+                    <Label Content="Name:"/>
+                    <Label Content="{Binding Name, UpdateSourceTrigger= LostFocus}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                    <Label Content="Surname:"/>
+                    <Label Content="{Binding Surname,UpdateSourceTrigger= LostFocus}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                    <Label Content="Lastname:"/>
+                    <Label Content="{Binding Lastname, UpdateSourceTrigger= LostFocus}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                    <Label Content="Specialization:"/>
+                    <Label Content="{Binding Specialization, UpdateSourceTrigger= LostFocus}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                    <Label Content="ID:"/>
+                    <Label Content="{Binding ID, UpdateSourceTrigger= LostFocus}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <!-- Центральная колонка -->
+        <StackPanel Grid.Column="1" Margin="5">
+            <!-- Поиск пациента -->
+            <DockPanel Height="60" Margin="0,0,0,5" HorizontalAlignment="Stretch" LastChildFill="True" DataContext="{StaticResource Pacientshow}">
+                <Label Content="Введите ID пользователя" VerticalAlignment="Center" HorizontalAlignment="Center" DockPanel.Dock="Top"/>
+                <Button Content="a" Height="30" Width="30" Margin="5,0" DockPanel.Dock="Right" Click="ShowPacient"/>
+                <TextBox Height="30" VerticalAlignment="Center" Margin="5,0" Text="{Binding ID}"/>
+            </DockPanel>
+
+            <!-- Информация о пациенте -->
+            <!-- Блок информации о пациенте -->
+            <Border BorderBrush="Black" BorderThickness="1" DataContext="{StaticResource Pacientshow}">
+                <StackPanel Margin="10">
+                    <Label Content="Name"/>
+                    <Label Content="{Binding Name}" Margin="0,5" HorizontalAlignment="Left"/>
+                    <Label Content="Surname"/>
+                    <Label Content="{Binding Surname}" Margin="0,5" HorizontalAlignment="Left"/>
+                    <Label Content="Lastname"/>
+                    <Label Content="{Binding Lastname}" Margin="0,5" HorizontalAlignment="Left"/>
+                    <Label Content="LastDocrot"/>
+                    <Label Content="{Binding LastDoctor}" Margin="0,5" HorizontalAlignment="Left"/>
+                    <Label Content="Diagnosis"/>
+                    <Label Content="{Binding Diagnosis}" Margin="0,5" HorizontalAlignment="Left"/>
+                      <Label Content="Birthday"/>
+                    <Label Content="{Binding Birthday, StringFormat='Date of birthday: {0:dd.MM.yyyy}'}" Margin="0,5" HorizontalAlignment="Left"/>
+
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="New diagnosis:" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="30" HorizontalAlignment="Stretch" Text="{Binding Diagnosis, UpdateSourceTrigger=LostFocus}"/>
+                    </DockPanel>
+
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="Recomindations:" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="76" HorizontalAlignment="Stretch" Text="{Binding Recomendations, UpdateSourceTrigger=LostFocus}"/>
+                    </DockPanel>
+
+                    <Button Width="300" Height="35" Content="Внести информацию" HorizontalAlignment="Center" Margin="0,10" Click="Receptpacient"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <!-- Правая колонка -->
+        <StackPanel Grid.Column="2" Margin="5" DataContext="{StaticResource Pacientadd}">
+  
+            <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,5">
+                <StackPanel Margin="10">
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="Name" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Name,UpdateSourceTrigger=LostFocus}"/>
+                    </DockPanel>
+
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="Surname" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Surname,UpdateSourceTrigger=LostFocus}"/>
+                    </DockPanel>
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="Lastname" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center" />
+                        <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Lastname,UpdateSourceTrigger=LostFocus}"/>
+                    </DockPanel>
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="Дата рождения" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <DatePicker Height="25" HorizontalAlignment="Stretch" SelectedDate="{Binding Birthday,UpdateSourceTrigger=PropertyChanged}"/>
+                    </DockPanel>
+                    <Button Content="Добавить пациента" Height="40" Width="300" Margin="0,10" HorizontalAlignment="Center" Click="Addpacient"/>
+                </StackPanel>
+            </Border>
+
+            <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,5" DataContext="{StaticResource Pacientshow}">
+                <StackPanel Margin="10">
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="Name" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center" />
+                        <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Name}"/>
+                    </DockPanel>
+
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="Surname" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center" />
+                        <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Surname}"/>
+                    </DockPanel>
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="Lastname" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Lastname}"/>
+                    </DockPanel>
+                    <DockPanel Margin="0,5" LastChildFill="True">
+                        <Label Content="Дата рождения" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                        <DatePicker Height="25" HorizontalAlignment="Stretch"  Text="{Binding Birthday }"/>
+                    </DockPanel>
+                    <Button Content="Изменить пациента" Height="40" Width="300" Margin="0,10" HorizontalAlignment="Center" Click="Redactpacient"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <!-- Нижняя панель с количеством -->
+        <DockPanel Grid.Column="0" Grid.ColumnSpan="3" VerticalAlignment="Bottom" Height="40" Margin="5" LastChildFill="True" DataContext="{StaticResource Pacientshow}">
+            <Label Content="Количество пользователей и пациентов:" VerticalAlignment="Center"  Margin="5,0,0,0" Height="28"/>
+            <Label Content="{Binding allusers}" DockPanel.Dock="Bottom"  HorizontalContentAlignment="Left" Margin="0,5,5,5"  Width="1080"  />
+        </DockPanel>
+    </Grid>
+</Window>
