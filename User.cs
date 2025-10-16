@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -140,57 +140,61 @@ namespace WpfApp_DataBinding_Ver2
             {
                 if (_Passwordconfirm == _Password)
                 {
-                  string filePath;
-                if (currentID >= 10000)
-                {
-                    ID = $"{currentID}";
-                }
-                else if(currentID >= 1000)
-                {
-                 ID = $"0{currentID}";
-                }
-                else if (currentID >= 100)
-                {
-                    ID = $"00{currentID}";
-                }
-                else if (currentID >= 10)
-                {
-                    ID = $"000{currentID}";
-                }
-                else 
-                {
-                    ID = $"0000{currentID}";
-                }
-                        filePath = $".\\Users\\D_{ID}.json";
-                        File.WriteAllText("Last_D_ID.txt", currentID.ToString());
-                        string jsonString = JsonSerializer.Serialize(this);
-                        File.WriteAllText(filePath, jsonString);
+                    string filePath;
+                    if (currentID >= 10000)
+                    {
+                        ID = $"{currentID}";
                     }
-                    Name = "";
-                    Surname = "";
-                    Lastname = "";
-                    Specialization = "";
-                    Password = "";
-                    Passwordconfirm = "";
-                    ID = "";
-                    currentID++;
-
-
+                    else if (currentID >= 1000)
+                    {
+                        ID = $"0{currentID}";
+                    }
+                    else if (currentID >= 100)
+                    {
+                        ID = $"00{currentID}";
+                    }
+                    else if (currentID >= 10)
+                    {
+                        ID = $"000{currentID}";
+                    }
+                    else
+                    {
+                        ID = $"0000{currentID}";
+                    }
+                    filePath = $".\\Users\\D_{ID}.json";
+                    File.WriteAllText("Last_D_ID.txt", currentID.ToString());
+                    string jsonString = JsonSerializer.Serialize(this);
+                    File.WriteAllText(filePath, jsonString);
                 }
                 else
                 {
                     MessageBox.Show("Пароли не совпадают");
                 }
+                Name = "";
+                Surname = "";
+                Lastname = "";
+                Specialization = "";
+                Password = "";
+                Passwordconfirm = "";
+                ID = "";
+                currentID++;
+
+
             }
             else
             {
                 MessageBox.Show("Заполните все поля");
             }
 
-
-
-
         }
+
+
+
+
+
+
+        
+
 
         public bool Loadfromfile(string id)
         {
@@ -235,3 +239,4 @@ namespace WpfApp_DataBinding_Ver2
 
     }
 }
+
