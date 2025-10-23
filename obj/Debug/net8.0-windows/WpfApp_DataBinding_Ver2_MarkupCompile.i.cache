@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\pavel\Desktop\Wpf_8\Wpf_DataBinding\obj\Debug\net8.0-windows\
+C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\
 WpfApp_DataBinding_Ver2
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\pavel\Desktop\Wpf_8\Wpf_DataBinding\App.xaml
-6-392684685
+C:\Users\st310-06\Desktop\Новая папка\WpfPages\App.xaml
+7-1061116645
 
-14-341034900
-198-1127337667
-MainWindow.xaml;Pages\AddPacientPage.xaml;Pages\AppointmentPage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\RegisterPage.xaml;
+15-2146605447
+198-211836927
+MainWindow.xaml;Pages\AddPacientPage.xaml;Pages\AppointmentPage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\RedactPage.xaml;Pages\RegisterPage.xaml;
 
 False
 

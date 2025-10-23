@@ -31,6 +31,7 @@
             <Border BorderBrush="Black" BorderThickness="1" Margin="5"  Grid.Column="0">
                 <StackPanel Margin="10">
                     <Button Content="Добавить пациента" Margin="0,5" Click="Gotoadd"/>
+                    <Button Content="Изменить пациента" Margin="0,5" Click="Gotoredact"/>
                     <Button Content="Удалить пациента"  Margin="0,5" Click="DeleteUser"/>
                     <Button Content="Начать прием"  Margin="0,5" Click="GotoRecept"/>
                 </StackPanel>

@@ -31,9 +31,12 @@ namespace WpfApp_DataBinding_Ver2.Pages
         }
         public void Addpacient(object sender, RoutedEventArgs e)
         {
-            _pacients.Add(pacient);
+          
+           if (pacient.Savetofile())
+            {
+                _pacients.Add(pacient);
+            }
 
-            pacient.Savetofile();
   
 
         }

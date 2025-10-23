@@ -124,7 +124,7 @@ namespace WpfApp_DataBinding_Ver2
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
         }
 
-        public void Savetofile()
+        public bool Savetofile()
         {
     
         
@@ -173,11 +173,12 @@ namespace WpfApp_DataBinding_Ver2
                 MessageBox.Show("Pacient added");
                 currentID++;
 
-           
+                return true;
             }
             else
             {
                 MessageBox.Show("Заполните обязательные поля: Имя, Фамилия, Отчество, Дата рождения");
+                return false;
             }
         }
 

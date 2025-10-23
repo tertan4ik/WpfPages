@@ -43,6 +43,17 @@ namespace WpfApp_DataBinding_Ver2.Pages
         {
             NavigationService.Navigate(new AddPacientPage(Pacients));
         }
+        public void Gotoredact(object sender, RoutedEventArgs e)
+        {
+            if(Selectedpacient!=null)
+            {
+                NavigationService.Navigate(new RedactPage(Selectedpacient));
+            }
+            else
+            {
+                MessageBox.Show("Выберите пациента");
+            }
+        }
         public void GotoRecept(object sender, RoutedEventArgs e)
         {
             if(Selectedpacient!=null)
@@ -51,7 +62,7 @@ namespace WpfApp_DataBinding_Ver2.Pages
             }
             else
             {
-                MessageBox.Show("Выборите пациента");
+                MessageBox.Show("Выберите пациента");
             }
        
         }
