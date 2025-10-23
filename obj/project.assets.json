@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pavel\\Desktop\\WpfApp_DataBinding_Ver2\\WpfApp_DataBinding_Ver2.csproj",
+      "projectUniqueName": "C:\\Users\\pavel\\Desktop\\Wpf_8\\Wpf_DataBinding\\WpfApp_DataBinding_Ver2.csproj",
       "projectName": "WpfApp_DataBinding_Ver2",
-      "projectPath": "C:\\Users\\pavel\\Desktop\\WpfApp_DataBinding_Ver2\\WpfApp_DataBinding_Ver2.csproj",
+      "projectPath": "C:\\Users\\pavel\\Desktop\\Wpf_8\\Wpf_DataBinding\\WpfApp_DataBinding_Ver2.csproj",
       "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pavel\\Desktop\\WpfApp_DataBinding_Ver2\\obj\\",
+      "outputPath": "C:\\Users\\pavel\\Desktop\\Wpf_8\\Wpf_DataBinding\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",

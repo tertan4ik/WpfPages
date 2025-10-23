@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp_DataBinding_Ver2.Pages;
 
 namespace WpfApp_DataBinding_Ver2
 {
@@ -34,8 +35,9 @@ namespace WpfApp_DataBinding_Ver2
 
 
             InitializeComponent();
+            MainFrame.Navigate(new LoginPage());
 
-            
+
 
         }
 
@@ -48,7 +50,7 @@ namespace WpfApp_DataBinding_Ver2
                 user = null;
 
             var pacient = (Pacient)Resources["Pacientshow"];
-            pacient.Numberofpacients(user.Numberofusers());
+
 
         }
 
@@ -56,11 +58,11 @@ namespace WpfApp_DataBinding_Ver2
         {
           
             var user=(User)Resources["UserLog"];
-            signin= user.Loadfromfile(user.ID);
+            signin= user.Loadfromfile();
 
 
             var pacient = (Pacient)Resources["Pacientshow"];
-            pacient.Numberofpacients(user.Numberofusers());
+
 
 
         }

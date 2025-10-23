@@ -197,9 +197,9 @@ namespace WpfApp_DataBinding_Ver2
         
 
 
-        public bool Loadfromfile(string id)
+        public bool Loadfromfile()
         {
-            string fileName = $".\\Users\\D_{id}.json";
+            string fileName = $".\\Users\\D_{ID}.json";
             if (File.Exists(fileName))
             {
                 string jsonString = File.ReadAllText(fileName);
@@ -214,7 +214,6 @@ namespace WpfApp_DataBinding_Ver2
                     Surname = user.Surname;
                     Lastname = user.Lastname;
                     Specialization = user.Specialization;
-                    ID = user.ID;
                     return true;
 
 

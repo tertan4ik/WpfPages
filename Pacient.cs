@@ -73,61 +73,7 @@ namespace WpfApp_DataBinding_Ver2
                 }
             }
         }
-        private string _LastAppointment = "";
-        public string LastAppointment
-        {
-            get => _LastAppointment;
-            set
-            {
-                if (_LastAppointment != value)
-                {
-                    _LastAppointment = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
 
-        private string _LastDoctor = "";
-        public string LastDoctor
-        {
-            get => _LastDoctor;
-            set
-            {
-                if (_LastDoctor != value)
-                {
-                    _LastDoctor = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-
-        private string _Diagnosis = "";
-        public string Diagnosis
-        {
-            get => _Diagnosis;
-            set
-            {
-                if (_Diagnosis != value)
-                {
-                    _Diagnosis = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-
-        private string _Recomendations = "";
-        public string Recomendations
-        {
-            get => _Recomendations;
-            set
-            {
-                if (_Recomendations != value)
-                {
-                    _Recomendations = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
 
         private string _ID = "";
         public string ID
@@ -142,6 +88,22 @@ namespace WpfApp_DataBinding_Ver2
                 }
             }
         }
+
+        private List<AppointmentStory> _Appointmentstories = null;
+        
+        public List<AppointmentStory>  Appointmentstories
+        {
+            get => _Appointmentstories;
+            set
+            {
+                if (_Appointmentstories != value)
+                {
+                    _Appointmentstories = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+        
 
         private static int FindLastId()
         {
@@ -164,8 +126,8 @@ namespace WpfApp_DataBinding_Ver2
 
         public void Savetofile()
         {
-            int aou = allusers;
-            allusers = 0;
+    
+        
             if (_Name != "" && _Lastname != "" && _Surname != "" && _Birthday != null)
             {
                 string filePath;
@@ -208,18 +170,10 @@ namespace WpfApp_DataBinding_Ver2
                 string jsonString = JsonSerializer.Serialize(this);
                 File.WriteAllText(filePath, jsonString);
 
-                Name = "";
-                Lastname = "";
-                Surname = "";
-                Birthday = DateTime.Now;
-                LastAppointment = "";
-                LastDoctor = "";
-                Diagnosis = "";
-                Recomendations = "";
-                ID = "";
+                MessageBox.Show("Pacient added");
                 currentID++;
 
-                allusers = aou;
+           
             }
             else
             {
@@ -243,11 +197,8 @@ namespace WpfApp_DataBinding_Ver2
                 Lastname = pacient.Lastname;
                 Surname = pacient.Surname;
                 Birthday = pacient.Birthday;
-                LastAppointment = pacient.LastAppointment;
-                LastDoctor = pacient.LastDoctor;
-                Diagnosis = pacient.Diagnosis;
-                Recomendations = pacient.Recomendations;
                 ID = pacient.ID;
+                Appointmentstories = pacient.Appointmentstories;
                 return true;
             }
             else
@@ -261,52 +212,19 @@ namespace WpfApp_DataBinding_Ver2
 
         public void UpdatePacient()
         {
-            int aou = allusers;
-            allusers = 0;
-
-
-            string filePath = $".\\Pacients\\P_{ID}.json";
+                string filePath = $".\\Pacients\\P_{ID}.json";
                 string jsonString = JsonSerializer.Serialize(this);
                 File.WriteAllText(filePath, jsonString);
-
-            allusers = aou;
-            
-
         }
 
      public void Reception(string id)
         {
-            int aou = allusers;
-            allusers = 0;
-
-
-            LastDoctor = id;
-            LastAppointment = DateTime.Now.Date.ToString();
             string filePath = $".\\Pacients\\P_{ID}.json";
             string jsonString = JsonSerializer.Serialize(this);
-            File.WriteAllText(filePath, jsonString);
-            allusers = aou;
-    
+            File.WriteAllText(filePath, jsonString);   
         }
 
 
-        private int _allusers = 0;
-        public int allusers
-        {
-            get => _allusers;
-            set
-            {
-                if (_allusers != value)
-                {
-                    _allusers = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-        public void Numberofpacients(int numberofusers)
-        {
-           allusers= numberofusers +Last_ID;
-        }
     }
 
 }
