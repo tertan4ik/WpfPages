@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="465" d:DesignWidth="800"
-      Title="RegisterPage" Background="White">
+      Title="RegisterPage" >
 
     <Grid>
         <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,5" >

@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="570" d:DesignWidth="1000"
-      Title="AppointmentPage" Background="White">
+      Title="AppointmentPage" >
 
     <Grid>
         <Grid.ColumnDefinitions>

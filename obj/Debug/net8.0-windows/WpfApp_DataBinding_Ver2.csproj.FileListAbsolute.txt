@@ -85,3 +85,42 @@ C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-window
 C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.pdb
 C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.genruntimeconfig.cache
 C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\ref\WpfApp_DataBinding_Ver2.dll
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\bin\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.exe
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\bin\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.deps.json
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\bin\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.runtimeconfig.json
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\bin\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.dll
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\bin\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.pdb
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\AddPacientPage.g.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\AppointmentPage.g.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\LoginPage.g.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\RedactPage.g.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\RegisterPage.g.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2_MarkupCompile.cache
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2_MarkupCompile.lref
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\AddPacientPage.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\AppointmentPage.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\LoginPage.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\MainPage.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\RedactPage.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Pages\RegisterPage.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.g.resources
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.AssemblyInfoInputs.cache
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.AssemblyInfo.cs
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.csproj.CoreCompileInputs.cache
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.sourcelink.json
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.dll
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\refint\WpfApp_DataBinding_Ver2.dll
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.pdb
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.genruntimeconfig.cache
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\ref\WpfApp_DataBinding_Ver2.dll
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\bin\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.dll.config
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Styles\Colors\DarkTheme.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Styles\Colors\DefaultColors.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Styles\UI\Button.baml
+C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\App.baml

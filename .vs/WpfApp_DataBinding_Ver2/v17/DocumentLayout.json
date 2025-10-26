@@ -1,77 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\",
+  "WorkspaceRootPath": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\redactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\redactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\redactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\redactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\addpacientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\addpacientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\redactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\redactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\addpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\addpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\addpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\addpacientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pacient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\wpfapp_databinding_ver2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:wpfapp_databinding_ver2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\redactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\redactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\addpacientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\addpacientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:appointmentstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\st310-06\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\wpfpages\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|c:\\users\\pavel\\desktop\\gariev\\styles\\wpfpages\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{AA238D25-A154-47A3-B187-86CB90E5B8B1}|WpfApp_DataBinding_Ver2.csproj|solutionrelative:mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -86,100 +106,21 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         },
         {
           "DockedWidth": 15,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RedactPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\RedactPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\RedactPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\RedactPage.xaml.cs",
-              "RelativeToolTip": "Pages\\RedactPage.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T06:51:01.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RedactPage.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\RedactPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\RedactPage.xaml",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\RedactPage.xaml",
-              "RelativeToolTip": "Pages\\RedactPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-23T06:49:22.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppointmentPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\AppointmentPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\AppointmentPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\AppointmentPage.xaml.cs",
-              "RelativeToolTip": "Pages\\AppointmentPage.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAmwDoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T23:02:07.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AppointmentStory.cs",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\AppointmentStory.cs",
-              "RelativeDocumentMoniker": "AppointmentStory.cs",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\AppointmentStory.cs",
-              "RelativeToolTip": "AppointmentStory.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowBMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T22:53:10.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\MainPage.xaml.cs",
-              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAowCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T18:42:56.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddPacientPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\AddPacientPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\AddPacientPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\AddPacientPage.xaml.cs",
-              "RelativeToolTip": "Pages\\AddPacientPage.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAD4vycAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T22:23:54.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "AppointmentPage.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\AppointmentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\AppointmentPage.xaml",
               "RelativeDocumentMoniker": "Pages\\AppointmentPage.xaml",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\AppointmentPage.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\AppointmentPage.xaml",
               "RelativeToolTip": "Pages\\AppointmentPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-22T23:01:08.664Z",
@@ -187,85 +128,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\LoginPage.xaml",
-              "RelativeToolTip": "Pages\\LoginPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-22T22:39:11.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\RegisterPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\RegisterPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\RegisterPage.xaml.cs",
-              "RelativeToolTip": "Pages\\RegisterPage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T22:45:13.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddPacientPage.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\AddPacientPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\AddPacientPage.xaml",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\AddPacientPage.xaml",
-              "RelativeToolTip": "Pages\\AddPacientPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-22T23:01:11.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAD4v2EAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T22:42:50.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\MainPage.xaml",
-              "RelativeToolTip": "Pages\\MainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-22T18:42:55.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pacient.cs",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pacient.cs",
-              "RelativeDocumentMoniker": "Pacient.cs",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pacient.cs",
-              "RelativeToolTip": "Pacient.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAowIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T22:37:19.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\App.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-22T23:36:13.288Z",
@@ -274,10 +141,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AddPacientPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\AddPacientPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\AddPacientPage.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\AddPacientPage.xaml",
+              "RelativeToolTip": "Pages\\AddPacientPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T23:01:11.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T22:39:11.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Pages\\RegisterPage.xaml",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\RegisterPage.xaml",
               "RelativeToolTip": "Pages\\RegisterPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-22T22:44:37.92Z",
@@ -285,11 +176,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-22T22:44:52.246Z",
@@ -297,11 +188,194 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DefaultColors.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Styles\\Colors\\DefaultColors.xaml",
+              "RelativeDocumentMoniker": "Styles\\Colors\\DefaultColors.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Styles\\Colors\\DefaultColors.xaml",
+              "RelativeToolTip": "Styles\\Colors\\DefaultColors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-26T19:54:15.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DarkTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Styles\\Colors\\DarkTheme.xaml",
+              "RelativeDocumentMoniker": "Styles\\Colors\\DarkTheme.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Styles\\Colors\\DarkTheme.xaml",
+              "RelativeToolTip": "Styles\\Colors\\DarkTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-26T19:55:34.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T18:42:55.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RedactPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\RedactPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\RedactPage.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\RedactPage.xaml",
+              "RelativeToolTip": "Pages\\RedactPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T06:49:22.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwC0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T22:42:50.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pacient.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pacient.cs",
+              "RelativeDocumentMoniker": "Pacient.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pacient.cs",
+              "RelativeToolTip": "Pacient.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T22:37:19.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WpfApp_DataBinding_Ver2",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\WpfApp_DataBinding_Ver2.csproj",
+              "RelativeDocumentMoniker": "WpfApp_DataBinding_Ver2.csproj",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\WpfApp_DataBinding_Ver2.csproj",
+              "RelativeToolTip": "WpfApp_DataBinding_Ver2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-26T19:58:33.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Button.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Styles\\UI\\Button.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\Button.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Styles\\UI\\Button.xaml",
+              "RelativeToolTip": "Styles\\UI\\Button.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-26T19:56:04.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ThemeHelper.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\ThemeHelper.cs",
+              "RelativeDocumentMoniker": "ThemeHelper.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\ThemeHelper.cs",
+              "RelativeToolTip": "ThemeHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:57:36.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "AddPacientPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\AddPacientPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddPacientPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\AddPacientPage.xaml.cs",
+              "RelativeToolTip": "Pages\\AddPacientPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAD4vycAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T22:23:54.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T18:42:56.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppointmentStory.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\AppointmentStory.cs",
+              "RelativeDocumentMoniker": "AppointmentStory.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\AppointmentStory.cs",
+              "RelativeToolTip": "AppointmentStory.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowBMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T22:53:10.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppointmentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\AppointmentPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AppointmentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\AppointmentPage.xaml.cs",
+              "RelativeToolTip": "Pages\\AppointmentPage.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwDoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:02:07.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Pages\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T22:45:13.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RedactPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\RedactPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\RedactPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\RedactPage.xaml.cs",
+              "RelativeToolTip": "Pages\\RedactPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T06:51:01.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\Pages\\LoginPage.xaml.cs",
               "RelativeToolTip": "Pages\\LoginPage.xaml.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAwwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -309,11 +383,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\st310-06\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\WpfPages\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\pavel\\Desktop\\Gariev\\Styles\\WpfPages\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
