@@ -9,27 +9,27 @@
       Title="RedactPage">
 
     <Grid>
-        <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,5">
-            <StackPanel Margin="10">
-                <DockPanel Margin="0,5" LastChildFill="True">
-                    <Label Content="Name" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center" />
+        <Border Style="{StaticResource SpecBorder}">
+            <StackPanel Style="{StaticResource Panels}">
+                <DockPanel LastChildFill="True">
+                    <Label Content="Name" DockPanel.Dock="Top" HorizontalAlignment="Center" />
                     <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Name}"/>
                 </DockPanel>
 
-                <DockPanel Margin="0,5" LastChildFill="True">
-                    <Label Content="Surname" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center" />
+                <DockPanel  LastChildFill="True">
+                    <Label Content="Surname" DockPanel.Dock="Top" HorizontalAlignment="Center" />
                     <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Surname}"/>
                 </DockPanel>
-                <DockPanel Margin="0,5" LastChildFill="True">
-                    <Label Content="Lastname" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                <DockPanel  LastChildFill="True">
+                    <Label Content="Lastname" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
                     <TextBox Height="25" HorizontalAlignment="Stretch" Text="{Binding Lastname}"/>
                 </DockPanel>
-                <DockPanel Margin="0,5" LastChildFill="True">
-                    <Label Content="Дата рождения" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                <DockPanel  LastChildFill="True">
+                    <Label Content="Дата рождения" DockPanel.Dock="Top"  HorizontalAlignment="Center"/>
                     <DatePicker Height="25" HorizontalAlignment="Stretch"  Text="{Binding Birthday }"/>
                 </DockPanel>
-                <Button Content="Изменить пациента" Height="40" Width="300" Margin="0,10" HorizontalAlignment="Center" Click="Redactpacient"/>
-                <Button Content="Назад" Height="40" Width="300" Margin="0,10" HorizontalAlignment="Center" Click="Back"/>
+                <Button Content="Изменить пациента" Height="40" Width="300"  HorizontalAlignment="Center" Click="Redactpacient"/>
+                <Button Content="Назад" Height="40" Width="300"  HorizontalAlignment="Center" Click="Back"/>
             </StackPanel>
         </Border>
     </Grid>

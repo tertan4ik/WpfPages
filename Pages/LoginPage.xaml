@@ -14,18 +14,18 @@
     </Page.Resources>
     
     <Grid>
-        <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,5" DataContext="{StaticResource UserLog}">
-            <StackPanel Margin="10">
+        <Border DataContext="{StaticResource UserLog}" Style="{StaticResource SpecBorder}">
+            <StackPanel Style="{StaticResource Panels}">
                 <DockPanel HorizontalAlignment="Center">
-                    <Label Content="Identificaror" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                    <Label Content="Identificaror" DockPanel.Dock="Top"  HorizontalAlignment="Center"/>
                     <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding ID}"/>
                 </DockPanel>
                 <DockPanel HorizontalAlignment="Center">
-                    <Label Content="Password" DockPanel.Dock="Top" Margin="0,0,0,5" HorizontalAlignment="Center"  />
+                    <Label Content="Password" DockPanel.Dock="Top" HorizontalAlignment="Center"  />
                     <TextBox Height="25" HorizontalAlignment="Stretch" MinWidth="100" Text="{Binding Password}"/>
                 </DockPanel>
-                <Button Content="Войти" Height="40" Width="300" Margin="0,10,0,0" HorizontalAlignment="Center" Click="Login"/>
-                <Button Content="Регистрация" Height="40" Width="300" Margin="0,10,0,0" HorizontalAlignment="Center" Click="Gotoregister"/>
+                <Button Content="Войти" Height="40" Width="300"  HorizontalAlignment="Center" Click="Login"/>
+                <Button Content="Регистрация" Height="40" Width="300"  HorizontalAlignment="Center" Click="Gotoregister"/>
             </StackPanel>
         </Border>
     </Grid>

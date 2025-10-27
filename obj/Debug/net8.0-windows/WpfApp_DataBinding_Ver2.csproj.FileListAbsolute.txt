@@ -124,3 +124,10 @@ C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Styles\Co
 C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Styles\Colors\DefaultColors.baml
 C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\Styles\UI\Button.baml
 C:\Users\pavel\Desktop\Gariev\Styles\WpfPages\obj\Debug\net8.0-windows\App.baml
+C:\Users\st310-06\Desktop\Новая папка\WpfPages\bin\Debug\net8.0-windows\WpfApp_DataBinding_Ver2.dll.config
+C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\Styles\Colors\DarkTheme.baml
+C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\Styles\Colors\DefaultColors.baml
+C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\Styles\UI\Button.baml
+C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\App.baml
+C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\Styles\UI\Text.baml
+C:\Users\st310-06\Desktop\Новая папка\WpfPages\obj\Debug\net8.0-windows\Styles\UI\Panels.baml

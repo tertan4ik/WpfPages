@@ -6,41 +6,41 @@
       xmlns:local="clr-namespace:WpfApp_DataBinding_Ver2.Pages"
       xmlns:main="clr-namespace:WpfApp_DataBinding_Ver2"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="480" d:DesignWidth="800"
       Title="MainPage">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <StackPanel x:Name="UserInfo">
-            <Border BorderBrush="Black" BorderThickness="1" Margin="5" VerticalAlignment="Top">
+        <StackPanel x:Name="UserInfo" Style="{StaticResource Panels}">
+            <Border VerticalAlignment="Top" Style="{StaticResource SpecBorder}">
                 <StackPanel Margin="10">
                     <Label Content="Name:"/>
-                    <Label Content="{Binding Name,Mode=OneTime}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                    <Label Content="{Binding Name,Mode=OneTime}" HorizontalContentAlignment="Left" />
                     <Label Content="Surname:"/>
-                    <Label Content="{Binding Surname,Mode=OneTime}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                    <Label Content="{Binding Surname,Mode=OneTime}" HorizontalContentAlignment="Left" />
                     <Label Content="Lastname:"/>
-                    <Label Content="{Binding Lastname,Mode=OneTime}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                    <Label Content="{Binding Lastname,Mode=OneTime}" HorizontalContentAlignment="Left" />
                     <Label Content="Specialization:"/>
-                    <Label Content="{Binding Specialization,Mode=OneTime}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                    <Label Content="{Binding Specialization,Mode=OneTime}" HorizontalContentAlignment="Left" />
                     <Label Content="ID:"/>
-                    <Label Content="{Binding ID,Mode=OneTime}" HorizontalContentAlignment="Left" Margin="0,5"/>
+                    <Label Content="{Binding ID,Mode=OneTime}" HorizontalContentAlignment="Left" />
                 </StackPanel>
             </Border>
-            <Border BorderBrush="Black" BorderThickness="1" Margin="5"  Grid.Column="0">
+            <Border  Grid.Column="0">
                 <StackPanel Margin="10">
-                    <Button Content="Добавить пациента" Margin="0,5" Click="Gotoadd"/>
-                    <Button Content="Изменить пациента" Margin="0,5" Click="Gotoredact"/>
-                    <Button Content="Удалить пациента"  Margin="0,5" Click="DeleteUser"/>
-                    <Button Content="Начать прием"  Margin="0,5" Click="GotoRecept"/>
+                    <Button Style="{StaticResource AddButton}" Click="Gotoadd"/>
+                    <Button Content="Изменить пациента"  Click="Gotoredact"/>
+                    <Button Style="{StaticResource DeleteButton}"   Click="DeleteUser"/>
+                    <Button Content="Начать прием"   Click="GotoRecept"/>
                 </StackPanel>
             </Border>
         </StackPanel>
-      
 
 
-        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Margin="5">
+
+        <Border Grid.Column="1" Style="{StaticResource SpecBorder}">
             <ListView Grid.Column="1" ItemsSource="{Binding Pacients}" SelectedItem="{Binding Selectedpacient}"> 
                 <ListView.ItemTemplate>
                     <DataTemplate>

@@ -1,28 +1,29 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-
-    <!-- Основные цвета светлой темы -->
+   
+    <Color x:Key="IMO">#8B0000</Color>
     <Color x:Key="PrimaryColor">#DC2626</Color>
-    <Color x:Key="PrimaryDarkColor">#B91C1C</Color>
-    <Color x:Key="PrimaryLightColor">#EF4444</Color>
     <Color x:Key="SecondaryColor">#000000</Color>
-    <Color x:Key="SecondaryLightColor">#404040</Color>
     <Color x:Key="BackgroundColor">#FFFFFF</Color>
-    <!-- БЕЛЫЙ фон -->
-    <Color x:Key="SurfaceColor">#F8FAFC</Color>
     <Color x:Key="TextPrimary">#000000</Color>
-    <Color x:Key="TextSecondary">#666666</Color>
-    <Color x:Key="BorderColor">#E5E7EB</Color>
+    <Color x:Key="BorderColor">#000000</Color>
+    <Color x:Key="DeleteColorHover">#4f0a0a</Color>
+    <Color x:Key="DeleteColor">#8B0000</Color>
+    <Color x:Key="AddColor">#44b00e</Color>
+    <Color x:Key="AddColorHover">#369606</Color>
+    <Color x:Key="ClickColor">#f06c6c</Color>
+    <Color x:Key="AddClickColor">#61e86d</Color>
 
-    <!-- Кисти -->
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
-    <SolidColorBrush x:Key="PrimaryDarkBrush" Color="{StaticResource PrimaryDarkColor}"/>
-    <SolidColorBrush x:Key="PrimaryLightBrush" Color="{StaticResource PrimaryLightColor}"/>
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}"/>
-    <SolidColorBrush x:Key="SecondaryLightBrush" Color="{StaticResource SecondaryLightColor}"/>
     <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
-    <SolidColorBrush x:Key="SurfaceBrush" Color="{StaticResource SurfaceColor}"/>
     <SolidColorBrush x:Key="TextPrimaryBrush" Color="{StaticResource TextPrimary}"/>
-    <SolidColorBrush x:Key="TextSecondaryBrush" Color="{StaticResource TextSecondary}"/>
     <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource BorderColor}"/>
+    <SolidColorBrush x:Key="IsMouseOver" Color= "{StaticResource IMO}"/>
+    <SolidColorBrush x:Key="DeleteButtonColor" Color="{StaticResource DeleteColor}"/>
+    <SolidColorBrush x:Key="AddButtonColor" Color="{DynamicResource AddColor}"/>
+    <SolidColorBrush x:Key="AddButtonHoverColor" Color="{DynamicResource AddColorHover}"/>
+    <SolidColorBrush x:Key="DeleteButtonHoverColor" Color="{StaticResource DeleteColorHover}"/>
+    <SolidColorBrush x:Key="StandClickColor" Color="{StaticResource ClickColor}"/>
+    <SolidColorBrush x:Key="AddColorClick" Color="{StaticResource AddClickColor}"/>
 </ResourceDictionary>
