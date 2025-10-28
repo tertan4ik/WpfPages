@@ -35,6 +35,7 @@ namespace WpfApp_DataBinding_Ver2.Pages
            if (pacient.Savetofile())
             {
                 _pacients.Add(pacient);
+                NavigationService.GoBack();
             }
 
   
